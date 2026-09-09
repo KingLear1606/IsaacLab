@@ -1,0 +1,2163 @@
+<?xml version="1.0"?>
+<!-- Auto-generated from SolidWorks. Connections are fixed because URDF joint semantics cannot be inferred reliably from CAD mates alone. -->
+<robot name="second_version_2_0">
+  <link name="base_link"/>
+  <link name="link_0001">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0001.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0001.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0001_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0001"/>
+    <origin xyz="0 -0.46 -0.2869185532" rpy="3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0002">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0002.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0002.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0002_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0002"/>
+    <origin xyz="-0.015 -0.282 -0.5419185532" rpy="-1.570796326795 -0.772684007777 3.14159265359"/>
+  </joint>
+  <link name="link_0003">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0002.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0002.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0003_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0003"/>
+    <origin xyz="0.015 -0.212 -0.5419185532" rpy="1.570796326795 0.772684007777 0"/>
+  </joint>
+  <link name="link_0004">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0002.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0002.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0004_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0004"/>
+    <origin xyz="-0.015 -0.212 -0.5419185532" rpy="-1.570796326795 0.772684007777 3.14159265359"/>
+  </joint>
+  <link name="link_0005">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0002.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0002.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0005_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0005"/>
+    <origin xyz="0.015 -0.282 -0.5419185532" rpy="1.570796326795 -0.772684007777 0"/>
+  </joint>
+  <link name="link_0006">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0003.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0003.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0006_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0006"/>
+    <origin xyz="0 -0.247 -0.5739185532" rpy="1.570796326795 0 0"/>
+  </joint>
+  <link name="link_0007">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0004.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0004.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0007_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0007"/>
+    <origin xyz="0.0625 -0.3095 -0.5139185532" rpy="0 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0008">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0005.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0005.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0008_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0008"/>
+    <origin xyz="0 -0.247 -0.5779185532" rpy="1.570796326795 0 0"/>
+  </joint>
+  <link name="link_0009">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0006.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0006.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0009_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0009"/>
+    <origin xyz="0 -0.247 -0.5139185532" rpy="1.570796326795 0 0"/>
+  </joint>
+  <link name="link_0010">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0007.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0007.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0010_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0010"/>
+    <origin xyz="0 -0.247 -0.5559185532" rpy="1.570796326795 0 0"/>
+  </joint>
+  <link name="link_0011">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0008.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0008.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0011_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0011"/>
+    <origin xyz="0.3 -0.247 -0.7499185532" rpy="-3.14159265359 1.570796326795 0"/>
+  </joint>
+  <link name="link_0012">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0004.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0004.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0012_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0012"/>
+    <origin xyz="0.0625 -0.1845 -0.5139185532" rpy="0 0 1.570796326795"/>
+  </joint>
+  <link name="link_0013">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0004.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0004.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0013_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0013"/>
+    <origin xyz="-0.0625 -0.1845 -0.5139185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0014">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0009.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0009.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0014_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0014"/>
+    <origin xyz="0 -0.247 -0.3819185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0015">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0004.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0004.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0015_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0015"/>
+    <origin xyz="-0.0625 -0.3095 -0.5139185532" rpy="0 0 -1.570796326795"/>
+  </joint>
+  <link name="link_0016">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0010.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0010.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0016_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0016"/>
+    <origin xyz="0 -0.282 -0.5139185532" rpy="-3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0017">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0011.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0011.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0017_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0017"/>
+    <origin xyz="0 -0.247 -0.3819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0018">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0012.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0012.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0018_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0018"/>
+    <origin xyz="0 -0.247 -0.3819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0019">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0013.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0013.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0019_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0019"/>
+    <origin xyz="0 -0.361 0.1880814468" rpy="3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0020">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0020_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0020"/>
+    <origin xyz="-0.33 0.48 -0.3819185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0021">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0021_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0021"/>
+    <origin xyz="-0.33 -0.48 -0.3819185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0022">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0022_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0022"/>
+    <origin xyz="-0.33 0.5 -0.3619185532" rpy="-1.570796326795 0 3.14159265359"/>
+  </joint>
+  <link name="link_0023">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0023_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0023"/>
+    <origin xyz="0.33 0.5 -0.3619185532" rpy="-1.570796326795 0 3.14159265359"/>
+  </joint>
+  <link name="link_0024">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0024_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0024"/>
+    <origin xyz="0.33 0.48 -0.4819185532" rpy="0 0 3.14159265359"/>
+  </joint>
+  <link name="link_0025">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0025_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0025"/>
+    <origin xyz="-0.33 0.5 -0.5019185532" rpy="-1.570796326795 0 3.14159265359"/>
+  </joint>
+  <link name="link_0026">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0026_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0026"/>
+    <origin xyz="0.33 -0.48 -0.4819185532" rpy="0 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0027">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0027_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0027"/>
+    <origin xyz="0.31 0.48 -0.5019185532" rpy="1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0028">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0028_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0028"/>
+    <origin xyz="0.33 0.5 -0.5019185532" rpy="-1.570796326795 0 3.14159265359"/>
+  </joint>
+  <link name="link_0029">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0029_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0029"/>
+    <origin xyz="-0.31 -0.48 -0.5019185532" rpy="1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0030">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0030_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0030"/>
+    <origin xyz="0.33 0.48 -0.3419185532" rpy="0 0 3.14159265359"/>
+  </joint>
+  <link name="link_0031">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0031_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0031"/>
+    <origin xyz="0.31 0.48 -0.2219185532" rpy="1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0032">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0032_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0032"/>
+    <origin xyz="-0.31 -0.48 -0.2219185532" rpy="1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0033">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0033_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0033"/>
+    <origin xyz="-0.33 0.48 -0.2419185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0034">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0034_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0034"/>
+    <origin xyz="0.33 -0.48 -0.3419185532" rpy="0 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0035">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0014.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0035_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0035"/>
+    <origin xyz="-0.33 -0.48 -0.2419185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0036">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0036_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0036"/>
+    <origin xyz="0.33 0.5 -0.2219185532" rpy="-1.570796326795 0 3.14159265359"/>
+  </joint>
+  <link name="link_0037">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0015.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0037_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0037"/>
+    <origin xyz="-0.33 0.5 -0.2219185532" rpy="-1.570796326795 0 3.14159265359"/>
+  </joint>
+  <link name="link_0038">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0017.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0017.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0038_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0038"/>
+    <origin xyz="0.37 0.34 -0.3619185532" rpy="-1.570796326795 0 -1.570796326795"/>
+  </joint>
+  <link name="link_0039">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0018.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0018.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0039_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0039"/>
+    <origin xyz="0.35 -0.231541507112 -0.4293685532" rpy="-0.795398830184 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0040">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0019.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0019.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0040_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0040"/>
+    <origin xyz="0.06 -0.48 -0.2419185532" rpy="3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0041">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0019.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0019.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0041_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0041"/>
+    <origin xyz="0.06 -0.48 -0.4819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0042">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0020.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0020.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0042_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0042"/>
+    <origin xyz="0.318 -0.01 -0.3819185532" rpy="3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0043">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0021.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0021.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0043_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0043"/>
+    <origin xyz="0.538 -0.08 -0.3819185532" rpy="0 0 3.14159265359"/>
+  </joint>
+  <link name="link_0044">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0019.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0019.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0044_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0044"/>
+    <origin xyz="-0.06 -0.48 -0.2419185532" rpy="3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0045">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0045_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0045"/>
+    <origin xyz="0.37 0.34 -0.3894185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0046">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0046_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0046"/>
+    <origin xyz="0.38 0.2768 -0.4066185532" rpy="1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0047">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0024.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0024.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0047_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0047"/>
+    <origin xyz="0.437 0.3398 -0.3396185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0048">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0048_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0048"/>
+    <origin xyz="0.38 0.2768 -0.3176185532" rpy="-1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0049">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0025.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0025.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0049_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0049"/>
+    <origin xyz="0.450931360515 0.462378970724 -0.511918564393" rpy="-3.14159265359 0 -0.978431578669"/>
+  </joint>
+  <link name="link_0050">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0050_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0050"/>
+    <origin xyz="0.494 0.34 -0.3894185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0051">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0026.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0026.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0051_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0051"/>
+    <origin xyz="0.437 0.3398 -0.3296185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0052">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0027.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0027.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0052_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0052"/>
+    <origin xyz="0.437 0.3398 -0.3846185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0053">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0028.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0028.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0053_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0053"/>
+    <origin xyz="0.437 0.3398 -0.4564185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0054">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0029.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0029.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0054_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0054"/>
+    <origin xyz="0.437 0.3398 -0.4534185532" rpy="-3.14159265359 0 -0.1745329252"/>
+  </joint>
+  <link name="link_0055">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0030.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0030.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0055_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0055"/>
+    <origin xyz="0.437 0.3398 -0.3836185532" rpy="-3.14159265359 0 -0.1745329252"/>
+  </joint>
+  <link name="link_0056">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0056_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0056"/>
+    <origin xyz="0.38 0.2998 -0.4444185532" rpy="-1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0057">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0057_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0057"/>
+    <origin xyz="0.244836193657 -0.39949601727 -0.5219185532" rpy="-3.14159265359 0 -2.384850523901"/>
+  </joint>
+  <link name="link_0058">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0020.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0020.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0058_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0058"/>
+    <origin xyz="-0.318 -0.01 -0.3969185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0059">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0018.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0018.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0059_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0059"/>
+    <origin xyz="0.35 -0.231541507112 -0.2893685532" rpy="-0.795398830184 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0060">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0016.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0060_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0060"/>
+    <origin xyz="-0.31 -0.352 -0.3619185532" rpy="0 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0061">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0017.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0017.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0061_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0061"/>
+    <origin xyz="-0.37 0.34 -0.3619185532" rpy="1.570796326795 0 1.570796326795"/>
+  </joint>
+  <link name="link_0062">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0019.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0019.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0062_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0062"/>
+    <origin xyz="-0.06 -0.48 -0.4819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0063">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0063_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0063"/>
+    <origin xyz="-0.504 0.34 -0.3894185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0064">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0064_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0064"/>
+    <origin xyz="-0.494 0.2768 -0.4066185532" rpy="1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0065">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0024.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0024.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0065_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0065"/>
+    <origin xyz="-0.437 0.3398 -0.3396185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0066">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0066_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0066"/>
+    <origin xyz="-0.494 0.2768 -0.3176185532" rpy="-1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0067">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0025.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0025.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0067_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0067"/>
+    <origin xyz="-0.423068639485 0.462378970724 -0.511918564393" rpy="-3.14159265359 0 -0.978431578669"/>
+  </joint>
+  <link name="link_0068">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0068_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0068"/>
+    <origin xyz="-0.38 0.34 -0.3894185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0069">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0026.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0026.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0069_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0069"/>
+    <origin xyz="-0.437 0.3398 -0.3296185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0070">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0027.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0027.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0070_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0070"/>
+    <origin xyz="-0.437 0.3398 -0.3846185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0071">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0028.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0028.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0071_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0071"/>
+    <origin xyz="-0.437 0.3398 -0.4564185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0072">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0029.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0029.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0072_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0072"/>
+    <origin xyz="-0.437 0.3398 -0.4534185532" rpy="-3.14159265359 0 -0.1745329252"/>
+  </joint>
+  <link name="link_0073">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0030.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0030.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0073_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0073"/>
+    <origin xyz="-0.437 0.3398 -0.3836185532" rpy="-3.14159265359 0 -0.1745329252"/>
+  </joint>
+  <link name="link_0074">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0074_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0074"/>
+    <origin xyz="-0.494 0.2998 -0.4444185532" rpy="-1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0075">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0021.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0021.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0075_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0075"/>
+    <origin xyz="-0.538 -0.08 -0.3799185532" rpy="-3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0076">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0032.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0032.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0076_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0076"/>
+    <origin xyz="-0.15 0.017 -0.4819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0077">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0077_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0077"/>
+    <origin xyz="-0.13 0.037 -0.2194185532" rpy="-1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0078">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0034.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0034.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0078_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0078"/>
+    <origin xyz="0 -0.082 -0.3419185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0079">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0035.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0035.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0079_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0079"/>
+    <origin xyz="-0.11 0.118 -0.2219185532" rpy="-1.570796326795 0 -1.570796326795"/>
+  </joint>
+  <link name="link_0080">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0080_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0080"/>
+    <origin xyz="-0.11 -0.102 -0.5219185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0081">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0081_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0081"/>
+    <origin xyz="-0.1125 -0.082 -0.2019185532" rpy="3.14159265359 0 1.570796326795"/>
+  </joint>
+  <link name="link_0082">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0082_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0082"/>
+    <origin xyz="-0.13 -0.103944037713 -0.2019185532" rpy="3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0083">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0083_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0083"/>
+    <origin xyz="0.09 0.135 -0.2219185532" rpy="0 1.570796326795 0"/>
+  </joint>
+  <link name="link_0084">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0084_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0084"/>
+    <origin xyz="-0.09 0.1325 -0.2019185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0085">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0085_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0085"/>
+    <origin xyz="-0.31 -0.102 -0.2219185532" rpy="0 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0086">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0086_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0086"/>
+    <origin xyz="-0.11 0.135 -0.1619185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0087">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0087_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0087"/>
+    <origin xyz="-0.13 0.136944037713 -0.2019185532" rpy="-3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0088">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0088_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0088"/>
+    <origin xyz="-0.1125 0.115 -0.2019185532" rpy="-3.14159265359 0 -1.570796326795"/>
+  </joint>
+  <link name="link_0089">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0089_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0089"/>
+    <origin xyz="-0.13 -0.103944037713 -0.4819185532" rpy="0 0 3.14159265359"/>
+  </joint>
+  <link name="link_0090">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0090_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0090"/>
+    <origin xyz="-0.1125 -0.082 -0.4819185532" rpy="0 0 -1.570796326795"/>
+  </joint>
+  <link name="link_0091">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0091_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0091"/>
+    <origin xyz="-0.11 -0.102 -0.5219185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0092">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0092_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0092"/>
+    <origin xyz="-0.13 0.136944037713 -0.4819185532" rpy="0 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0093">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0093_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0093"/>
+    <origin xyz="-0.1125 0.115 -0.4819185532" rpy="0 0 1.570796326795"/>
+  </joint>
+  <link name="link_0094">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0094_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0094"/>
+    <origin xyz="0.11 0.135 -0.5219185532" rpy="0 0 3.14159265359"/>
+  </joint>
+  <link name="link_0095">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0095_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0095"/>
+    <origin xyz="0.13 -0.103944037713 -0.4819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0096">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0035.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0035.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0096_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0096"/>
+    <origin xyz="-0.11 -0.082 -0.4619185532" rpy="1.570796326795 0 -1.570796326795"/>
+  </joint>
+  <link name="link_0097">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0097_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0097"/>
+    <origin xyz="0.1125 -0.082 -0.2019185532" rpy="3.14159265359 0 1.570796326795"/>
+  </joint>
+  <link name="link_0098">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0098_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0098"/>
+    <origin xyz="-0.13 0.037 -0.4644185532" rpy="-1.570796326795 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0099">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0099_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0099"/>
+    <origin xyz="0.13 0.136944037713 -0.2019185532" rpy="-3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0100">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0100_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0100"/>
+    <origin xyz="0.13 0.037 -0.2194185532" rpy="1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0101">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0101_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0101"/>
+    <origin xyz="0.1125 0.115 -0.2019185532" rpy="-3.14159265359 0 -1.570796326795"/>
+  </joint>
+  <link name="link_0102">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0102_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0102"/>
+    <origin xyz="0.13 -0.103944037713 -0.2019185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0103">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0103_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0103"/>
+    <origin xyz="-0.11 0.135 -0.1619185532" rpy="3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0104">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0104_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0104"/>
+    <origin xyz="0.11 -0.102 -0.1619185532" rpy="3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0105">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0035.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0035.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0105_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0105"/>
+    <origin xyz="0.11 -0.082 -0.2219185532" rpy="1.570796326795 0 1.570796326795"/>
+  </joint>
+  <link name="link_0106">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0106_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0106"/>
+    <origin xyz="0.11 0.135 -0.5219185532" rpy="0 0 3.14159265359"/>
+  </joint>
+  <link name="link_0107">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0107_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0107"/>
+    <origin xyz="0.13 0.136944037713 -0.4819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0108">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0108_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0108"/>
+    <origin xyz="0.1125 0.115 -0.4819185532" rpy="0 0 1.570796326795"/>
+  </joint>
+  <link name="link_0109">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0109_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0109"/>
+    <origin xyz="-0.09 -0.0995 -0.2019185532" rpy="-3.14159265359 0 0"/>
+  </joint>
+  <link name="link_0110">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0110_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0110"/>
+    <origin xyz="0.1125 -0.082 -0.4819185532" rpy="0 0 -1.570796326795"/>
+  </joint>
+  <link name="link_0111">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0035.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0035.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0111_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0111"/>
+    <origin xyz="0.11 0.118 -0.4619185532" rpy="-1.570796326795 0 1.570796326795"/>
+  </joint>
+  <link name="link_0112">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0112_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0112"/>
+    <origin xyz="0.09 -0.0995 -0.4819185532" rpy="0 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0113">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0113_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0113"/>
+    <origin xyz="-0.09 0.1325 -0.4819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0114">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0114_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0114"/>
+    <origin xyz="0.09 0.1325 -0.2019185532" rpy="3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0115">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0032.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0032.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0115_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0115"/>
+    <origin xyz="0.15 0.017 -0.2019185532" rpy="3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0116">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0036.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0116_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0116"/>
+    <origin xyz="0.11 -0.102 -0.1619185532" rpy="3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0117">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0117_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0117"/>
+    <origin xyz="0.13 0.037 -0.4644185532" rpy="1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0118">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0118_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0118"/>
+    <origin xyz="0.09 0.1325 -0.4819185532" rpy="0 0 3.14159265359"/>
+  </joint>
+  <link name="link_0119">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0119_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0119"/>
+    <origin xyz="-0.09 0.135 -0.4619185532" rpy="0 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0120">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0120_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0120"/>
+    <origin xyz="0.09 -0.0995 -0.2019185532" rpy="-3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0121">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0121_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0121"/>
+    <origin xyz="-0.09 -0.102 -0.2219185532" rpy="3.14159265359 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0122">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0033.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0122_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0122"/>
+    <origin xyz="-0.09 -0.0995 -0.4819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0123">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0123_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0123"/>
+    <origin xyz="-0.13 0.135 -0.2219185532" rpy="-3.14159265359 1.570796326795 0"/>
+  </joint>
+  <link name="link_0124">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0124_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0124"/>
+    <origin xyz="0.31 0.135 -0.2219185532" rpy="-3.14159265359 1.570796326795 0"/>
+  </joint>
+  <link name="link_0125">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0125_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0125"/>
+    <origin xyz="-0.13 -0.102 -0.5019185532" rpy="0 1.570796326795 0"/>
+  </joint>
+  <link name="link_0126">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0126_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0126"/>
+    <origin xyz="-0.31 0.135 -0.5019185532" rpy="3.14159265359 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0127">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0127_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0127"/>
+    <origin xyz="0.31 -0.102 -0.5019185532" rpy="0 1.570796326795 0"/>
+  </joint>
+  <link name="link_0128">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0128_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0128"/>
+    <origin xyz="0.09 -0.102 -0.4619185532" rpy="-3.14159265359 1.570796326795 0"/>
+  </joint>
+  <link name="link_0129">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0129_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0129"/>
+    <origin xyz="0.13 -0.102 -0.2219185532" rpy="0 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0130">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0037.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0130_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0130"/>
+    <origin xyz="0.13 0.135 -0.5019185532" rpy="3.14159265359 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0131">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0038.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0038.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0131_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0131"/>
+    <origin xyz="0 -0.37 -0.4819185532" rpy="0 0 0"/>
+  </joint>
+  <link name="link_0132">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0132_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0132"/>
+    <origin xyz="-0.244836193657 -0.39949601727 -0.5319185532" rpy="0 0 0.756742129689"/>
+  </joint>
+  <link name="link_0133">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0017.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0017.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0133_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0133"/>
+    <origin xyz="-0.37 -0.34 -0.3619185532" rpy="1.570796326795 0 1.570796326795"/>
+  </joint>
+  <link name="link_0134">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0018.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0018.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0134_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0134"/>
+    <origin xyz="-0.36 -0.231541507112 -0.2893685532" rpy="-0.795398830184 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0135">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0135_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0135"/>
+    <origin xyz="0.244836193657 0.39949601727 -0.5319185532" rpy="0 0 -2.384850523901"/>
+  </joint>
+  <link name="link_0136">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0136_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0136"/>
+    <origin xyz="-0.244836193657 -0.39949601727 -0.2019185532" rpy="0 0 0.756742129689"/>
+  </joint>
+  <link name="link_0137">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0137_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0137"/>
+    <origin xyz="0.244836193657 0.39949601727 -0.2019185532" rpy="0 0 -2.384850523901"/>
+  </joint>
+  <link name="link_0138">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0138_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0138"/>
+    <origin xyz="-0.244836193657 0.39949601727 -0.1919185532" rpy="3.14159265359 0 0.756742129689"/>
+  </joint>
+  <link name="link_0139">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0139_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0139"/>
+    <origin xyz="-0.244836193657 0.39949601727 -0.5219185532" rpy="-3.14159265359 0 0.756742129689"/>
+  </joint>
+  <link name="link_0140">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0031.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0140_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0140"/>
+    <origin xyz="0.244836193657 -0.39949601727 -0.1919185532" rpy="3.14159265359 0 -2.384850523901"/>
+  </joint>
+  <link name="link_0141">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0018.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0018.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0141_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0141"/>
+    <origin xyz="-0.36 -0.231541507112 -0.4293685532" rpy="-0.795398830184 -1.570796326795 0"/>
+  </joint>
+  <link name="link_0142">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0142_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0142"/>
+    <origin xyz="0.504 -0.34 -0.3894185532" rpy="-3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0143">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0143_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0143"/>
+    <origin xyz="0.494 -0.2768 -0.4066185532" rpy="1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0144">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0024.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0024.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0144_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0144"/>
+    <origin xyz="0.437 -0.3398 -0.3396185532" rpy="-3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0145">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0145_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0145"/>
+    <origin xyz="0.494 -0.2768 -0.3176185532" rpy="-1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0146">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0025.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0025.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0146_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0146"/>
+    <origin xyz="0.423068639485 -0.462378970724 -0.511918564393" rpy="-3.14159265359 0 2.163161074921"/>
+  </joint>
+  <link name="link_0147">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0147_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0147"/>
+    <origin xyz="0.38 -0.34 -0.3894185532" rpy="-3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0148">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0026.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0026.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0148_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0148"/>
+    <origin xyz="0.437 -0.3398 -0.3296185532" rpy="-3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0149">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0027.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0027.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0149_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0149"/>
+    <origin xyz="0.437 -0.3398 -0.3846185532" rpy="-3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0150">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0028.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0028.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0150_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0150"/>
+    <origin xyz="0.437 -0.3398 -0.4564185532" rpy="-3.14159265359 0 3.14159265359"/>
+  </joint>
+  <link name="link_0151">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0029.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0029.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0151_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0151"/>
+    <origin xyz="0.437 -0.3398 -0.4534185532" rpy="-3.14159265359 0 2.967059728389"/>
+  </joint>
+  <link name="link_0152">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0030.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0030.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0152_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0152"/>
+    <origin xyz="0.437 -0.3398 -0.3836185532" rpy="-3.14159265359 0 2.967059728389"/>
+  </joint>
+  <link name="link_0153">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0153_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0153"/>
+    <origin xyz="0.494 -0.2998 -0.4444185532" rpy="-1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0154">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0154_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0154"/>
+    <origin xyz="-0.37 -0.34 -0.3894185532" rpy="-3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0155">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0155_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0155"/>
+    <origin xyz="-0.38 -0.2768 -0.4066185532" rpy="1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0156">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0024.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0024.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0156_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0156"/>
+    <origin xyz="-0.437 -0.3398 -0.3396185532" rpy="-3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0157">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0157_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0157"/>
+    <origin xyz="-0.38 -0.2768 -0.3176185532" rpy="-1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0158">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0025.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0025.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0158_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0158"/>
+    <origin xyz="-0.450931360515 -0.462378970724 -0.511918564393" rpy="-3.14159265359 0 2.163161074921"/>
+  </joint>
+  <link name="link_0159">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0022.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0159_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0159"/>
+    <origin xyz="-0.494 -0.34 -0.3894185532" rpy="-3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0160">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0026.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0026.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0160_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0160"/>
+    <origin xyz="-0.437 -0.3398 -0.3296185532" rpy="-3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0161">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0027.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0027.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0161_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0161"/>
+    <origin xyz="-0.437 -0.3398 -0.3846185532" rpy="-3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0162">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0028.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0028.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0162_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0162"/>
+    <origin xyz="-0.437 -0.3398 -0.4564185532" rpy="-3.14159265359 0 -3.14159265359"/>
+  </joint>
+  <link name="link_0163">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0029.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0029.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0163_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0163"/>
+    <origin xyz="-0.437 -0.3398 -0.4534185532" rpy="-3.14159265359 0 2.967059728389"/>
+  </joint>
+  <link name="link_0164">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0030.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0030.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0164_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0164"/>
+    <origin xyz="-0.437 -0.3398 -0.3836185532" rpy="-3.14159265359 0 2.967059728389"/>
+  </joint>
+  <link name="link_0165">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0023.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0165_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0165"/>
+    <origin xyz="-0.38 -0.2998 -0.4444185532" rpy="-1.570796326795 1.570796326795 0"/>
+  </joint>
+  <link name="link_0166">
+    <visual>
+      <geometry><mesh filename="meshes/mesh_0017.stl"/></geometry>
+    </visual>
+    <collision>
+      <geometry><mesh filename="meshes/mesh_0017.stl"/></geometry>
+    </collision>
+  </link>
+  <joint name="link_0166_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="link_0166"/>
+    <origin xyz="0.37 -0.34 -0.3619185532" rpy="-1.570796326795 0 -1.570796326795"/>
+  </joint>
+</robot>
