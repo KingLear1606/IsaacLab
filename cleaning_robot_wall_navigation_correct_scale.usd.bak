@@ -1,0 +1,68 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def Xform "Wall"
+    {
+        def Cube "Geometry"
+        {
+            float3 xformOp:scale = (2.0, 0.05, 2.0)
+            float3 xformOp:translate = (0, -0.05, 1.0)
+            uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+            color3f primvars:displayColor = (0.55, 0.57, 0.60)
+        }
+    }
+
+    def Xform "Ground"
+    {
+        def Cube "Geometry"
+        {
+            float3 xformOp:scale = (6.0, 6.0, 0.05)
+            float3 xformOp:translate = (0, 0, -0.05)
+            uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+            color3f primvars:displayColor = (0.22, 0.22, 0.24)
+        }
+    }
+
+    def Xform "CleaningRobot"
+    {
+        float3 xformOp:translate = (0.0, 0.55, 2.0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        custom string motionModel = "planar_xz_kinematic"
+        custom string controlledAxes = "x,z"
+        custom double wallFrontDistance = 0.40
+        custom double robotCenterWallDistance = 0.55
+
+        def Cube "Body"
+        {
+            float3 xformOp:scale = (0.25, 0.15, 0.25)
+            uniform token[] xformOpOrder = ["xformOp:scale"]
+            color3f primvars:displayColor = (0.10, 0.38, 0.78)
+        }
+    }
+
+    def DistantLight "SunLight"
+    {
+        float3 xformOp:rotateXYZ = (-45, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+        float intensity = 5000
+        float3 primvars:displayColor = (1, 0.98, 0.92)
+        token[] excludedPrimvars = []
+        int maxBounces = 0
+    }
+
+    def DomeLight "SkyLight"
+    {
+        float3 primvars:displayColor = (0.75, 0.85, 1.0)
+        uniform token intensityMode = "manual"
+        float intensity = 500
+        token[] excludedPrimvars = []
+        int maxBounces = 0
+    }
+}
