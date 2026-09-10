@@ -1,0 +1,126 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def Xform "Wall"
+    {
+        def Material "ConcreteMaterial"
+        {
+            def Shader "PreviewSurface"
+            {
+                token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.55, 0.57, 0.60)
+                float inputs:roughness = 0.8
+            }
+            token outputs:out = "Surface"
+        }
+
+        def Material "GlassMaterial"
+        {
+            def Shader "PreviewSurface"
+            {
+                token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.8, 0.9, 1.0)
+                float inputs:opacity = 0.3
+                token inputs:opacityMode = "weighted"
+            }
+            token outputs:out = "Surface"
+        }
+
+        def Cube "Geometry"
+        {
+            float3 xformOp:scale = (2.0, 0.05, 2.0)
+            float3 xformOp:translate = (0, -0.05, 1.0)
+            uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+            color3f primvars:displayColor = (0.55, 0.57, 0.60)
+            rel material:binding = </World/Wall/ConcreteMaterial>
+        }
+
+        def Cube "GlassPane1"
+        {
+            float3 xformOp:scale = (0.6, 0.01, 0.8)
+            float3 xformOp:translate = (-0.5, -0.06, 1.0)
+            uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+            color3f primvars:displayColor = (0.8, 0.9, 1.0)
+            rel material:binding = </World/Wall/GlassMaterial>
+        }
+
+        def Cube "GlassPane2"
+        {
+            float3 xformOp:scale = (0.6, 0.01, 0.8)
+            float3 xformOp:translate = (0.5, -0.06, 1.0)
+            uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+            color3f primvars:displayColor = (0.8, 0.9, 1.0)
+            rel material:binding = </World/Wall/GlassMaterial>
+        }
+    }
+
+    def Xform "Ground"
+    {
+        def Cube "Geometry"
+        {
+            float3 xformOp:scale = (6.0, 6.0, 0.05)
+            float3 xformOp:translate = (0, 0, -0.05)
+            uniform token[] xformOpOrder = ["xformOp:scale", "xformOp:translate"]
+            color3f primvars:displayColor = (0.22, 0.22, 0.24)
+        }
+    }
+
+    def Xform "CleaningRobot"
+    {
+        float3 xformOp:translate = (0.0, 0.55, 2.0)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+
+        custom string motionModel = "planar_xz_kinematic"
+        custom string controlledAxes = "x,z"
+        custom double wallFrontDistance = 0.40
+        custom double robotCenterWallDistance = 0.55
+
+        def Cube "Body"
+        {
+            float3 xformOp:scale = (0.25, 0.15, 0.25)
+            uniform token[] xformOpOrder = ["xformOp:scale"]
+            color3f primvars:displayColor = (0.10, 0.38, 0.78)
+        }
+
+        def Camera "WallCamera"
+        {
+            float3 xformOp:rotateXYZ = (90, 0, 0)
+            float3 xformOp:translate = (0.0, 0.0, 0.15)
+            uniform token[] xformOpOrder = ["xformOp:rotateXYZ", "xformOp:translate"]
+
+            token projection = "perspective"
+            float horizontalAperture = 3.6
+            float verticalAperture = 2.025
+            float focalLength = 2.0
+            float near = 0.1
+            float far = 10.0
+
+            float3 primvars:displayColor = (0.8, 0.8, 0.8)
+        }
+    }
+
+    def DistantLight "SunLight"
+    {
+        float3 xformOp:rotateXYZ = (-45, 30, 0)
+        uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+        float intensity = 5000
+        float3 primvars:displayColor = (1, 0.98, 0.92)
+        token[] excludedPrimvars = []
+        int maxBounces = 0
+    }
+
+    def DomeLight "SkyLight"
+    {
+        float3 primvars:displayColor = (0.75, 0.85, 1.0)
+        uniform token intensityMode = "manual"
+        float intensity = 500
+        token[] excludedPrimvars = []
+        int maxBounces = 0
+    }
+}
